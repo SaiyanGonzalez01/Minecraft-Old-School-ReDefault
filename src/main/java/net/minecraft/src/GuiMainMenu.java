@@ -100,8 +100,8 @@ public class GuiMainMenu extends GuiScreen {
 		GL11.glScalef(var8, var8, var8);
 		this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
 		GL11.glPopMatrix();
-		this.drawString(this.fontRenderer, "Minecraft Beta 1.7.3", 2, 2, 5263440);
-		String var9 = "Copyright Mojang AB. Do not distribute.";
+		this.drawString(this.fontRenderer, "Minecraft Old-School: ReDefault", 2, 2, 5263440);
+		String var9 = "Made By Saiyan Gonzalez. Please, distribute!";
 		this.drawString(this.fontRenderer, var9, this.width - this.fontRenderer.getStringWidth(var9) - 2, this.height - 10, 16777215);
 		super.drawScreen(var1, var2, var3);
 	}
