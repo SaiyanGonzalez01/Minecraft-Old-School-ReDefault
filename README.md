@@ -10,6 +10,8 @@ Unless you put your video settings on low and fast, then it would chrombook-frie
 
 Currently i'm trying to find a way to compile the vanilla Eaglercraft Beta 1.7.3, as for some reason there is no tutorial on the readme.md, so when i figure that out i'll update this text.
 
+(Literally tried all gradle commands I knew to compile it and it just compiles into different files, so idk whats going on there)
+
 ### Contributers
 
 - SaiyanGonzalez01 ~ Owner
