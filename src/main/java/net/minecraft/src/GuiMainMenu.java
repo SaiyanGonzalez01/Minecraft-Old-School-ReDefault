@@ -19,7 +19,7 @@ public class GuiMainMenu extends GuiScreen {
 	private String splashText = "missingno";
 	private GuiButton multiplayerButton;
 	
-	byte[] splash = new byte[] {79 108 100 45 83 99 104 111 111 108 32 67 111 111 108 33};
+	byte[] splash = new byte[] {77, 97, 100, 101, 32, 98, 121, 32, 80, 101, 121, 116, 111, 110, 80, 108, 97, 121, 122, 53, 56, 53, 33};
 
 	public GuiMainMenu() {
 		splashText = new String(splash);
@@ -100,8 +100,8 @@ public class GuiMainMenu extends GuiScreen {
 		GL11.glScalef(var8, var8, var8);
 		this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
 		GL11.glPopMatrix();
-		this.drawString(this.fontRenderer, "Minecraft Old-School: ReDefault", 2, 2, 5263440);
-		String var9 = "Made By Saiyan Gonzalez. Please, distribute!";
+		this.drawString(this.fontRenderer, "Minecraft Beta 1.7.3", 2, 2, 5263440);
+		String var9 = "Copyright Mojang AB. Do not distribute.";
 		this.drawString(this.fontRenderer, var9, this.width - this.fontRenderer.getStringWidth(var9) - 2, this.height - 10, 16777215);
 		super.drawScreen(var1, var2, var3);
 	}
