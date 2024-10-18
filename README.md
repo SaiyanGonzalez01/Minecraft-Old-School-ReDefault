@@ -8,9 +8,21 @@ Unless you put your video settings on low and fast, then it would chrombook-frie
 
 ### Compiling
 
-Currently i'm trying to find a way to compile the vanilla Eaglercraft Beta 1.7.3, as for some reason there is no tutorial on the readme.md, so when i figure that out i'll update this text.
+Ok, finally figured out how to compile it. Here are the steps:
 
-(Literally tried all gradle commands I knew to compile it and it just compiles into different files, so idk whats going on there)
+For app.js:
+- Create Codespace or import project as a gradle project
+- Do 'gradle generatejavascript'
+- Wait for it to load the new app.js file
+- Download it and change it out in the /js folder
+
+For resources.mc:
+
+- In Windows, double click the file called CompileEPK.bat, which will generate the new file.
+ ### OR
+- In Linux or Mac, open up terminal and type chmod +x run_unix.sh, and then ./run_unix.sh to run it. This will generate the new file.
+
+Once compiled, move the new resources.mc to the /web folder.
 
 ### Contributers
 
