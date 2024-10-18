@@ -3,7 +3,7 @@ package net.minecraft.src;
 public class ItemSign extends Item {
 	public ItemSign(int var1) {
 		super(var1);
-		this.maxStackSize = 10;
+		this.maxStackSize = 1;
 	}
 
 	public boolean onItemUse(ItemStack var1, EntityPlayer var2, World var3, int var4, int var5, int var6, int var7) {
