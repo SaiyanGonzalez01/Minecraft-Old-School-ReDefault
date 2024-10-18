@@ -26,7 +26,7 @@ Once compiled, move the new resources.mc to the /web folder.
 
 ### Play a Demo!
 
-You heard right! You can actually PLAY the project now unlike the original Old-School. Updated Textures arent there because its a demo, you don't get the full thing unless you do it yourself! Play here: https://saiyangonzalez01.github.io/Minecraft-Old-School-ReDefault/web/
+You heard right! You can actually PLAY the project now unlike the original Old-School. Updated Textures arent there because its a demo, you don't get the full thing unless you do it yourself! (or you could just download the resources folder and just put it in the texture-pack menu) Play here: https://saiyangonzalez01.github.io/Minecraft-Old-School-ReDefault/web/
 
 ### Contributers
 
