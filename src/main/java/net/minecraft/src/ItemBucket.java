@@ -5,7 +5,7 @@ public class ItemBucket extends Item {
 
 	public ItemBucket(int var1, int var2) {
 		super(var1);
-		this.maxStackSize = 1;
+		this.maxStackSize = 12;
 		this.isFull = var2;
 	}
 
